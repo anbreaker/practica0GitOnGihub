@@ -36,7 +36,15 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
   - Se modificaron la mayoría de lineas entre los archivos.
 
 - **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
+
+  - No hubo conflictos entre estas ramas
+
 - **¿Qué comando o comandos utilizaste en el paso 25?**
+
+  - Utilice los dos siguientes haciendo una caputra del segundo al lograr verse mas concentrado y dando una buena perspectiva de lo realizado hasta el momento.
+    - `git log --graph`
+    - `git log --graph --decorate --pretty=oneline`
+
 - **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
 - **¿Qué comando o comandos utilizaste en el paso 27?**
 - **¿Qué comando o comandos utilizaste en el paso 28?**
