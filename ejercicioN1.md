@@ -21,6 +21,15 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
     - Regresan los cambios efectuados.
 
 - **El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**
+
+  - git merge master -m '13) Hacer un merge con ‘master’ (styled absorbe a master)'
+    Merge made by the 'recursive' strategy.
+    ejercicioN1.md | 33 +++++++++++++++++++++++++++++++++
+    1 file changed, 33 insertions(+)
+    create mode 100644 ejercicioN1.md
+
+  - Este merge no causo conflictos, se hizo la insercion del archivo donde estoy respondiendo las preguntas de la práctica y conservo sus cambios en git-nuestro.md
+
 - **El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
 - **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
 - **¿Qué comando o comandos utilizaste en el paso 25?**
