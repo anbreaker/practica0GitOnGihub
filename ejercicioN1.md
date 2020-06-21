@@ -6,10 +6,20 @@ Se deberá entregar a través del formulario de prácticas indicando la URL del 
 repositorio, deberá existir un archivo readme.md con las respuestas a las siguientes preguntas:
 
 - **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
+
   - git reset --hard HEAD~1
   - Este comando deshace el último commit y lo que había en mi working copy
-    volviendo a como estaba antes. El staging area queda vacío, pero como realice la subido al repositorio de git, si realizara un pull bajaria el cambio realizado desde el repositorio remoto, o si realizara un git reflog podria navegar hasta este estado.
+    volviendo a como estaba antes. El staging area queda vacío.
+
 - **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
+
+  - Tenia un par de opciones:
+    - Como realice la subida al repositorio de git, si realizara un pull bajaria el cambio realizado desde el repositorio remoto, o si realizara un git reflog podria navegar hasta este estado.
+  - Emplee esta segunta técnica de la siguiente forma:
+    - `git reflog` --> Localice el hash que correspondia
+    - `git checkout #hashDelCommit`
+    - Regresan los cambios efectuados.
+
 - **El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**
 - **El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
 - **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
