@@ -46,6 +46,11 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
     - `git log --graph --decorate --pretty=oneline`
 
 - **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
+
+  - Sí, no hubiera tenido ningun problema en realizarse un merge con fast forward. Hubieramos covertido las ramas (las implicadas), en una lista.
+  - Con `git merge --no-ff title -m '26) Hacer un merge “no fast-forward” de “title” en “master” (master absorbe a title)'` ,
+    tendriamos las rasmas diferenciadas con un comit común.
+
 - **¿Qué comando o comandos utilizaste en el paso 27?**
 - **¿Qué comando o comandos utilizaste en el paso 28?**
 - **¿Qué comando o comandos utilizaste en el paso 29?**
