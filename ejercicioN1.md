@@ -74,3 +74,8 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
   - `git checkout #hash`
 
 - **¿Qué comando o comandos usaste en el punto 33?**
+
+  - Para volver al punto seguí las mismas instruciones de la pregunta anterior.
+  - `git log` --> Busqueda del commit donde realizamos la Oración de Git y
+    "viajar" hacia este punto
+  - `git checkout #hash`
