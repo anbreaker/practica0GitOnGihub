@@ -64,5 +64,13 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
   - `git branch -d title` al encontrarme desde master y no tener vinculos con la opcion -d ha sido suficiente.
 
 - **¿Qué comando o comandos utilizaste en el paso 30?**
+
+  - `git checkout #hash`
+
 - **¿Qué comando o comandos usaste en el paso 32?**
+
+  - `git log` --> Busqueda del commit donde realizamos la Oración de Git y
+    "viajar" hacia este punto
+  - `git checkout #hash`
+
 - **¿Qué comando o comandos usaste en el punto 33?**
