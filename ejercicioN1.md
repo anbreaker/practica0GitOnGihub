@@ -52,8 +52,17 @@ repositorio, deberá existir un archivo readme.md con las respuestas a las sigui
     tendriamos las rasmas diferenciadas con un comit común.
 
 - **¿Qué comando o comandos utilizaste en el paso 27?**
+
+  - `git reset #hash` y elimine los cambios que se mantuvieron en el working copy.
+
 - **¿Qué comando o comandos utilizaste en el paso 28?**
+
+  - Los cambios respecto la rama title eran dos inserciones de linea, simplemente elimine ambas inserciones.
+
 - **¿Qué comando o comandos utilizaste en el paso 29?**
+
+  - `git branch -d title` al encontrarme desde master y no tener vinculos con la opcion -d ha sido suficiente.
+
 - **¿Qué comando o comandos utilizaste en el paso 30?**
 - **¿Qué comando o comandos usaste en el paso 32?**
 - **¿Qué comando o comandos usaste en el punto 33?**
